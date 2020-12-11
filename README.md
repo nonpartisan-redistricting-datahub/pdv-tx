@@ -1,5 +1,7 @@
 # pdv-tx
-Partner data validation for Texas. Data Partners: PGP / MGGG.  
+Partner data validation for Texas. Data Partners: PGP / MGGG. 
+
+[Final Report](https://docs.google.com/document/d/1QFsWiIAIpEUsXorbExAe_T93_dSbkYjtE7XaeSXTbiY/edit?usp=sharing)
 
 Note: The MGGG and PGP replication files are the same (they are duplicated to reflect the fact that the data is shared).
 
