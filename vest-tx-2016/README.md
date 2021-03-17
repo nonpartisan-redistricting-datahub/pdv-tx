@@ -4,7 +4,7 @@ Partner data validation for Texas. VEST 2016.
 ## Raw from source:
 - VEST file (2016): 
   - Online: https://dataverse.harvard.edu/file.xhtml?fileId=3184154&version=53.0 
-  - AWS: `tx_2016/``
+  - AWS: `tx_2016/`
 - TX Shapefile (2016 General Election VTDs):
   - Online: https://data.capitol.texas.gov/dataset/archived-precincts
   - AWS: `vtd16g/`
