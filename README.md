@@ -1,31 +1,19 @@
 # pdv-tx
-Partner data validation for Texas. Data Partners: PGP / MGGG. 
 
-[Final Report](https://docs.google.com/document/d/1QFsWiIAIpEUsXorbExAe_T93_dSbkYjtE7XaeSXTbiY/edit?usp=sharing)
+The Redistricting Data Hub (RDH) repository to validate our data partners' precinct-level election result shapefiles. The scripts available in this repository are used to write the reports available at [redistrictrictingdatahub.org]([https://redistrictingdatahub.org/](https://redistrictingdatahub.org/)). 
 
-Note: The MGGG and PGP replication files are the same (they are duplicated to reflect the fact that the data is shared).
+We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed. 
 
-**Raw from source:**
-- TX Shapefile (2016 General Election VTDs):
-  - Online: https://data.capitol.texas.gov/dataset/archived-precincts
-  - AWS: `vtd16g.zip`
-- US Congressional Map (115th Congress):
-  - Online: https://catalog.data.gov/dataset/tiger-line-shapefile-2016-nation-u-s-115th-congressional-district-national
-  - AWS: `tl_2016_us_cd115.zip`
-- TX House Map (PlanH407): 
-  - Online: https://data.capitol.texas.gov/dataset/planh407
-  - AWS: `planh407.zip`
-- TX Senate Map (PlanS172): 
-  - Online: https://data.capitol.texas.gov/dataset/plans172
-  - AWS: `plans172.zip`
-- TX Election Results (reported by 2016 VTDs): 
-  - Online: https://data.capitol.texas.gov/dataset/historical_elections
-  - `ftp_election_data_16g.zip`
-- Census Data (reported by 2016 VTDs): File not publically available, posted on AWS
-  - Online: n/a
-  - AWS: `Pop2010_VTD_2016G.xlsx`  
-  
-**File Processing:**
-- MGGG / PGP  File: https://openprecincts.org/tx/
-- Processing and Validation Steps: `PGP_TX_replication.ipynb`
-- Notes / Methodology: Comments on `PGP_TX_replication.ipynb`
+Please reach out to info@redistrictingdatahub.org to reach our support team if you have any questions. 
+
+## vest-tx-2016
+
+RDH's partner data validation for VEST's 2016 TX file. VEST's raw file is available [here](https://dataverse.harvard.edu/file.xhtml?fileId=3184154&version=53.0).
+
+View the complete report [here](https://redistrictingdatahub.org/dataset/vest-2016-texas-precinct-and-election-results/).
+
+## mggg-tx
+
+RDH's partner data validation for MGGG's TX file. MGGG's raw file is available [here](https://github.com/mggg-states/TX-shapefiles).
+
+View the complete report [here](https://redistrictingdatahub.org/dataset/mggg-texas-precincts-and-election-results/).
